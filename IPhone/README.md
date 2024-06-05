@@ -7,8 +7,7 @@ Utilizando o [draw.io](https://app.diagrams.net/), foi construído o diagrama UM
 
 <br>
 <br>
-<br>
-<br>
+
 
 ### 📌 Diagrama UML
 
