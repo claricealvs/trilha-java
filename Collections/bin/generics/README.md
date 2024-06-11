@@ -38,8 +38,8 @@ public class Box<T> {
 - Como você pode ver, todas as ocorrências de Object são substituídas por T.
 - Uma variável de tipo pode ser qualquer tipo não primitivo que você especificar: qualquer tipo de classe, qualquer tipo de interface, qualquer tipo de array ou até mesmo outra variável de tipo.
 - Essa mesma técnica pode ser aplicada para criar interfaces genérica.
-- Os nomes de parâmetros de tipo mais comumente usados são:
-     ° E - Elemento (usado extensivamente pelo    Java Collections Framework) <br>
+- Os nomes de parâmetros de tipo mais comumente usados são: <br>
+     ° E - Elemento (usado extensivamente pelo Java Collections Framework) <br>
      ° K-Chave <br>
      ° N - Número <br>
      ° T - Tipo <br>
