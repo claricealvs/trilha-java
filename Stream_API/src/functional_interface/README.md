@@ -238,4 +238,4 @@ public class BinaryOperatorExample {
 }
 ```
 
->Classe Anônima: A classe anônima em Java é uma classe >não recebeu um nome e é tanto declarado e instanciado >em uma única instrução. Você deve considerar o uso de >uma classe anônima sempre que você precisa para criar >uma classe que será instanciado apenas uma vez.
+>*Classe Anônima*: A classe anônima em Java é uma classe não recebeu um nome e é tanto declarado e instanciado em uma única instrução. Você deve considerar o uso de uma classe anônima sempre que você precisa para criar uma classe que será instanciado apenas uma vez.
