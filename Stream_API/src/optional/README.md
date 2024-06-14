@@ -76,7 +76,7 @@ Optional<String> optionalValue = Optional.of("Hello");
 optionalValue.ifPresent(value -> System.out.println("Valor presente: " + value));
 ```
 
-## Referência
+## Referências:
 
 [1] "Java Platform, Standard Edition 17 - Class Optional." Oracle. Disponível em: https://awesomeopensource.com/project/elangosundar/awesome-README-templates.
 
