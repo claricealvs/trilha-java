@@ -6,5 +6,6 @@ public interface IConta {
 	public void consultarSaldo(Cliente cliente);
 	void depositar(double valor);
 	void transferir(double valor, IConta contaDestino);
-	void imprimirExtrato();    
+	void imprimirExtrato();  
+	  
 }

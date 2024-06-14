@@ -1,6 +1,7 @@
 package models;
 
 public class Conta implements IConta {
+
 	private static final int AGENCIA_PADRAO = 1;
 	private static int SEQUENCIAL = 1;
 
@@ -66,4 +67,5 @@ public class Conta implements IConta {
     public void imprimirExtrato() {
         throw new UnsupportedOperationException("Unimplemented method 'imprimirExtrato'");
     } 
+	
 }

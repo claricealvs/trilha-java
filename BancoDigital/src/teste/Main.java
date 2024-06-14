@@ -25,8 +25,10 @@ public class Main {
 		corrente.sacar(200);
 		corrente.consultarSaldo(clarice);
 
+		// transferindo saldo da conta corrente para poupança
 		corrente.transferir(100, poupanca);
 
+		// imprimindo extrato das contas
 		corrente.imprimirExtrato();
 		poupanca.imprimirExtrato();
 	}
