@@ -36,37 +36,22 @@ public class Main {
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
 
-        Dev devCamila = new Dev();
-        devCamila.setNome("Camila");
-        devCamila.inscreverBootcamp(bootcamp);
+        Dev devClarice = new Dev();
+        devClarice.setNome("Clarice");
+        devClarice.inscreverBootcamp(bootcamp);
 
-        System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
-        devCamila.progredir();
-        devCamila.progredir();
+        System.out.println("Conteúdos Inscritos Clarice:" + devClarice.getConteudosInscritos());
+        devClarice.progredir();
+        devClarice.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Camila:" + devCamila.getConteudosConcluidos());
-        System.out.println("XP:" + devCamila.calcularTotalXp());
+        System.out.println("Conteúdos Inscritos Camila:" + devClarice.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Camila:" + devClarice.getConteudosConcluidos());
+        System.out.println("XP:" + devClarice.calcularTotalXp());
 
 
-        devCamila.gerarCertificado();
+        devClarice.gerarCertificado();
 
         System.out.println("-------");
-
-        //Dev devJoao = new Dev();
-        //devJoao.setNome("Joao");
-        //devJoao.inscreverBootcamp(bootcamp);
-        
-        /*
-        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
-        devJoao.progredir();
-        devJoao.progredir();
-        devJoao.progredir();
-        System.out.println("-");
-        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
-        System.out.println("XP:" + devJoao.calcularTotalXp());
-        */
 
     }
 
