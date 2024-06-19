@@ -15,5 +15,12 @@ public class GenericsExempleList {
 		for (String elemento : listaGenerics) {
 			System.out.println(elemento);
 		}
+
+		System.out.println();
+
+		// Imprimindo a lista com números na frente
+        for (int i = 0; i < listaGenerics.size(); i++) {
+            System.out.println((i + 1) + ". " + listaGenerics.get(i));
+        }
 	}
 }
